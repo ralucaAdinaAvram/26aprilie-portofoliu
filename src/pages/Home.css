@@ -1,0 +1,46 @@
+.presentation>h1{
+    color:var(--pink);
+}
+.presentation>:nth-child(2) {
+    color:var(--pink);
+    font-size: 40px;
+}
+
+.presentation>:nth-child(3){
+    color:var(--pink);
+    font-size: 30px;
+}
+.presentation>:nth-child(4),:nth-child(5) {
+    color:var(--dark_gray);
+    font-size: 30px;
+}
+.container-home{
+    position: absolute;
+
+}
+.landing{
+    position:relative;
+    margin-left: 200px;
+    z-index:1000;
+}
+button{
+    width: 320px;
+height: 60px;
+letter-spacing: 2px;
+font-size: 30px;
+
+}
+.button> button>a{
+    text-decoration: none;
+}
+@media (max-width:952px){
+    .presentation>:nth-child(2){
+        font-size: 20px;
+    }
+    .landing{
+        
+        margin-left: 10px;
+        margin-right: 32px;
+    }
+    
+}

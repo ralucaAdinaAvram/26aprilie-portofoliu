@@ -1,0 +1,63 @@
+.portofolioContainer{
+    position:absolute;
+}
+.project{
+    position:relative;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    font-size: 40px;
+    margin-left: 200px;
+    align-items: center;
+   
+    
+}
+.projectCard{
+    z-index: 1000;
+    margin-left:10px;
+    margin-top: 100px;
+    width:350px;
+    height: 350px;
+    -moz-box-shadow: 0 7px 20px #0e0e0e;
+    -webkit-box-shadow: 0 7px 20px #0e0e0e;
+    box-shadow: 0 7px 20px #0e0e0e;
+    
+}
+.projectImg>img{
+    width:320px;
+    height: 320px;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+}
+.projectImg{
+    border-radius: 20px;
+}
+.projectName{
+    width: 40px;
+    position:relative;
+    margin-top: 50px;
+    font-size: 26px;
+    letter-spacing: 1px;
+    padding-left: 23px;
+}
+
+@media (max-width:952px){
+
+    .portofolioContainer{
+        position:absolute;
+       
+    }
+  
+    .project{
+        top:-60px;
+        position: relative;
+        display:flex;
+        flex-direction: column;
+       left:-120px;
+        align-items: center;
+        z-index:1000;
+    }
+   
+  
+}

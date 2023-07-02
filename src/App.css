@@ -1,0 +1,13 @@
+
+:root {
+    --pink:rgb(205, 92, 143);
+    --white:rgb(173, 174, 174);
+    --light_gray:rgba(198, 190, 190, 0.943);
+    --mid_gray:rgba(161, 158, 158, 0.58);
+    --dark_gray:rgb(74, 72, 72);
+    
+    
+  }
+*{background-color:#0a192f;
+    
+}

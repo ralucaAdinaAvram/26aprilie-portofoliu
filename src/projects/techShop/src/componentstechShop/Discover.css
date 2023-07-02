@@ -1,0 +1,99 @@
+
+.discover-container{
+    /* margin-top: 440px; */
+    display:flex;
+    /* height:auto; */
+    padding: 30px 0px;
+    margin: 10px auto;
+    width:90%;
+    justify-content:center;
+    align-items: center;
+    overflow: hidden;
+    gap: 10px;
+    background-color:rgba(228, 241, 254);
+    border-radius: 5px;
+}
+.discover-content{
+    margin-top: 30px;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    display:flex; 
+   
+}
+
+.discover-content {
+   text-decoration: none;
+   color:black;
+   display:flex;
+   flex-direction: column;
+   
+}
+.discover-content p{
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: 60px;
+    font-size: 20px;
+}
+.discover-content  a{
+    text-decoration: none;
+}
+.discover-content button{
+    width:250px;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+
+
+.image{
+   
+    background-image: url("../images/headphones2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   transform:scale(0.9);
+    height:75vh;
+    width:50%;
+    display:flex ;
+    flex-direction:column;
+    align-items: center;
+    
+    border-radius: 3px;
+    
+}
+
+@media screen and (max-width:768px){
+    .discover-container{
+        margin-top: 40px;
+        height:500px; 
+        display:flex;
+        width:80%;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column; 
+       background-color:rgba(228, 241, 254);
+        border-radius: 5px;
+    }
+    
+    
+    .discover-content{
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        display:flex; 
+       
+    }
+    .image{
+        transform:scale(3);
+        height:10vh;
+        width:33%;
+    }
+    p{
+        margin:auto auto;
+    }
+}

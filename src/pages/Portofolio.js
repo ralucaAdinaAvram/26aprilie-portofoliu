@@ -4,7 +4,6 @@ import './Portofolio.css';
 import Flowers from '../assests/flowers.webp';
 import Calc from '../assests/calc.jpg';
 import Four from '../assests/Four.jpg';
-import ApptechShop from '../projects/techShop/src/ApptechShop';
 import { useNavigate } from "react-router-dom";
 
 

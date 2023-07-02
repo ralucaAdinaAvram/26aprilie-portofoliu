@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 import HometechShop from './componentstechShop/HometechShop';
 
@@ -6,7 +6,6 @@ import HometechShop from './componentstechShop/HometechShop';
 
 
 function AppTechShop() {
-  const [openModal, setOpenModal]= useState(false);
 
   return (
    <div>

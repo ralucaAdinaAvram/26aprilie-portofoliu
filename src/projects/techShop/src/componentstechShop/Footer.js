@@ -1,6 +1,5 @@
 import React from 'react';
 import '../componentstechShop/Footer.css';
-import {Link} from 'react-router-dom';
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";

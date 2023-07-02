@@ -1,11 +1,11 @@
-import React, {Fragment, useState } from "react";
+import React, {Fragment } from "react";
 
 import { Link } from "react-router-dom";
 import "./Navbar.css";
-import { Home } from "../pages/Home";
+
 
 const Navbar = () => {
-  const mobile = window.innerWidth <= 768 ? true : false;
+  
   return (
     <>
       <div className="topMenu">

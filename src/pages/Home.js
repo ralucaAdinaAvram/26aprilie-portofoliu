@@ -13,7 +13,8 @@ const Home = () => {
         <div className="landing">
             <div className="presentation">
                 <h1 >Hi, my name is </h1>
-                <p >Adina Avram</p>
+                <p>Adina Avram</p>
+                <p></p>
                 <p>I am a selft-taught front end web developer.</p>
                 <p>I have taught myslef to do web pages, without having any preparation.
             </p>

@@ -1,46 +1,112 @@
-.presentation>h1{
-    color:var(--pink);
+.presentation > h1 {
+  color: var(--pink);
+  font-size: 50px;
+  padding: 20px;
+  letter-spacing: 1px;
 }
-.presentation>:nth-child(2) {
-    color:var(--pink);
+.presentation > :nth-child(2) {
+  color: var(--pink);
+  font-size: 60px;
+  padding: 20px;
+  letter-spacing: 1px;
+}
+
+.presentation > :nth-child(3) {
+  color: var(--pink);
+  font-size: 40px;
+  padding: 20px;
+  letter-spacing: 1px;
+}
+/* .presentation > :nth-child(4),
+:nth-child(5) {
+  color: var(--dark_gray);
+  font-size: 40px;
+  padding: 20px;
+  letter-spacing: 1px;
+} */
+.social-media {
+  flex: 2;
+}
+.container-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+.landing {
+  flex: 2;
+
+  margin-left: 400px;
+}
+.button {
+  padding: 30px;
+}
+button {
+  width: 520px;
+  height: 90px;
+  letter-spacing: 2px;
+  font-size: 40px;
+  color: var(--light_gray);
+}
+.button > button > a {
+  text-decoration: none;
+}
+@media (max-width: 952px) {
+  .container-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .landing {
+    flex: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .presentation > h1 {
+    color: var(--pink);
+    font-size: 30px;
+    padding: 10px;
+    letter-spacing: 1px;
+  }
+  .presentation > :nth-child(2) {
+    color: var(--pink);
+    font-size: 30px;
+    padding: 20px;
+    letter-spacing: 1px;
+  }
+
+  .presentation > :nth-child(3) {
+    color: var(--pink);
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 1px;
+  }
+  /* .presentation > :nth-child(4),
+  :nth-child(5) {
+    color: var(--dark_gray);
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 1px;
+  } */
+
+  button {
+    width: 200px;
+    height: 90px;
+    letter-spacing: 2px;
     font-size: 40px;
-}
+    line-height: 5px;
+  }
+  .social-media {
+    flex: 0;
+  }
 
-.presentation>:nth-child(3){
-    color:var(--pink);
-    font-size: 30px;
-}
-.presentation>:nth-child(4),:nth-child(5) {
-    color:var(--dark_gray);
-    font-size: 30px;
-}
-.container-home{
-    position: absolute;
+  .button a button {
+    font-size: 5vw;
+  }
 
-}
-.landing{
-    position:relative;
-    margin-left: 200px;
-    z-index:1000;
-}
-button{
-    width: 320px;
-height: 60px;
-letter-spacing: 2px;
-font-size: 30px;
-
-}
-.button> button>a{
-    text-decoration: none;
-}
-@media (max-width:952px){
-    .presentation>:nth-child(2){
-        font-size: 20px;
-    }
-    .landing{
-        
-        margin-left: 10px;
-        margin-right: 32px;
-    }
-    
+ 
 }

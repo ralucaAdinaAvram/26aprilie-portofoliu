@@ -1,69 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;1,300&display=swap");
 
+.menu {
+  display: flex;
+  height: 10vh;
 
-.topMenu {
-  width: 100%;
-  height: 300px;
-
-  display: flex;
-}
-.l-topMenu {
-  align-items: center;
-  flex: 1;
-  padding-left: 200px;
-  display: flex;
-  font-family: "Lobster Two", sans-serif;
-  font-size: larger;
-  font-size: 50px;
-  color: var(--pink);
-}
-.r-topMenu {
-  align-items: center;
-  justify-content: center;
-  flex: 1;
-  display: flex;
-}
-.container-topMenu {
   color: white;
-  display: flex;
-  gap: 4rem;
-  font-size: large;
+  align-items: center;
+  font-size: 55px;
+  padding: 0 20px;
+  justify-content: space-between;
 }
-.topMenuLinks a {
+a {
+  color: white;
   text-decoration: none;
-  color: black;
-  font-size: 28px;
-  font-weight: 100px;
-  letter-spacing: 2px;
+  margin-right: 15px;
+  font-size: 1.3vw;
 }
 
-a.active-topMenu,
-a:hover {
-  border-bottom: 1px solid grey;
-  transition: 0.3s;
+.logo p {
+  color: var(--pink);
+  font-family: "Fuggles", cursive;
+  /* font-family: 'Lobster Two', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+}
+.mobileNav {
+  display: none;
 }
 
-@media (max-width: 952px) {
-  .l-topMenu {
-    margin-left: -100px;
+
+@media (max-width: 540px) {
+  .desktopNav {
+    display: none;
   }
-  .r-topMenu {
+  .mobileNav {
+    display: flex;
   }
-  .container-topMenu {
-    position: fixed;
-    right: 2rem;
-    z-index: 99;
-    flex-direction: column;
-    background-color: pink;
-    padding: 2rem;
-  }
-  .sidebar {
-    position: fixed;
+  .mobileHamburgerMenu {
+    background-color: rgb(27, 26, 26);
+    position: absolute;
+    left: 0;
     top: 0;
-    right: 0;
-    min-width: 400px;
-    max-width: 100%;
-    background-color: #f4f4f4;
-    height: 100vh;
-    z-index: 99999;
+    width: 100vw;
+    z-index: 9999;
+  }
+  .header_nav {
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 10px 20px;
+  }
+  .header_nav a {
+    list-style: none;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .closeButton {
+    background-color: rgb(27, 26, 26);
+    width: 100%;
+    text-align: end;
+  }
+  svg {
+    background-color: transparent;
+  }
+  .landing {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  a {
+    background-color: transparent;
   }
 }

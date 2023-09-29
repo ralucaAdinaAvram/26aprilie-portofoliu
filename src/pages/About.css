@@ -1,72 +1,94 @@
-.about_section{
-    display: flex;
-    gap:5rem;
-    position: absolute;
-    color:var(--mid_gray);
-    
+*{
+    margin:0;
+    padding: 0;
 }
-.l-about{
-    flex:1;
+.about-container{
     display:flex;
-    flex-direction: column;
-    align-items:flex-end;
-    font-size: 34px;
-    position:relative;
-    margin-left: 100px;
-    
-    z-index:1000;
+    align-items: center;
+    justify-content: center;
+     color:var(--mid_gray);
+     gap:8rem;
+     margin-top: 10%;
 }
+.social-media{
+flex:2;
+display:flex;
+}
+.about-section{
+display: flex;
+flex:2;
+flex-direction: column;
+margin-left:20%;
+padding: 30px;
+
+}
+
+
 h2{
     border-bottom:var(--pink) 8px solid;
-}
-.r-about{
-    flex:1;
+    padding: 10px;
+    font-size: 60px;
+    letter-spacing: 1px;
+   
+  }
+  .title{
     display:flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .about-content{
+    display: flex;
     flex-direction: column;
-    align-items:flex-end;
-    font-size: 34px;
-    padding-top: 140px;
-    margin-right: 110px;
-    position:relative;
-   
-}
-.about_left_text{
-    position:absolute;
-    margin-top: 150px;
-   
-
-}
-.about_left_text_second{
-    position:relative;
-    width: fit-content;
-    min-width: 200px;
-}
-
-
-@media (max-width:952px){
+     align-items: center;
+    justify-content: space-around;
+    
+    
+  }
+  .content-l{
+padding: 10px;
+display:flex;
  
-    .about_section{
-        display:flex;
-        flex-direction: column;
-    }
-    .r-about{
-        font-size: 20px;
-        align-items: center;
-        margin-left: 80px;
-    }
-    .l-about{
-      
-        align-items: center;
-        font-size: 20px;
-        margin-right:60px;
-        margin-left: 60px;
-        margin-bottom: -100px;
-        
-    }
-    .about_left_text_second{
-        font-size: 15px;
-        margin-right: 40px;
-    }
+  }
+  .content-r{
+    padding: 10px;
     
     
-}
+  }
+  .content-l>p{
+    width:100%;
+    font-size: 60px;
+    letter-spacing: 1px;
+  }
+  .content-r>p{
+    width:100%;
+    font-size: 40px;
+    letter-spacing: 1px;
+  }
+  @media (max-width: 952px) {
+
+    .about-container{
+      display: flex;
+      flex-direction: column;
+    }
+    .about-content{
+      display: flex;
+      flex-direction: column;
+        align-items: center;
+    justify-content:center;
+
+    }
+    .contact_social_left{
+      display: flex;
+      align-items: center;
+    justify-content:center;
+    }
+    .title h2{
+      font-size: 30px;
+    }
+    .content-l>p, .content-r>p{
+       font-size: 30px;
+    }
+
+
+  }

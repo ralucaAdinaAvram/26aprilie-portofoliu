@@ -7,6 +7,7 @@ import Skills from "./pages/Skills";
 import Contact from "./pages/ContactUs";
 import SocialMedia from "./components/SocialMedia";
 import Navbar from "./components/Navbar";
+import "./App.css";
 
 const App: React.FC = () => {
   return (

@@ -1,9 +1,6 @@
-import React from 'react'
-import './About.css';
-import SocialMedia from '../components/SocialMedia';
-
-
-
+import React from "react";
+import "./About.css";
+import SocialMedia from "../components/SocialMedia";
 
 const About = (): JSX.Element => {
   return (
@@ -34,4 +31,4 @@ const About = (): JSX.Element => {
   );
 };
 
-export default About
+export default About;

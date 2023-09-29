@@ -1,20 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import HometechShop from './componentstechShop/HometechShop';
-
-
-
+import HometechShop from "./componentstechShop/HometechShop";
 
 function AppTechShop() {
-
   return (
-   <div>
-    
-     
-   <HometechShop />
-  
-   </div>
-  )
+    <div>
+      <HometechShop />
+    </div>
+  );
 }
 
 export default AppTechShop;

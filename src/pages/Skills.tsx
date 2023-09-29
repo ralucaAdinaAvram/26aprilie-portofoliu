@@ -1,11 +1,11 @@
 import React from "react";
 import "./Skills.css";
-import css from "../assests/css.png";
-import javascript from "../assests/javascript.png";
-import typescript from "../assests/typescript.png";
-import github from "../assests/github.png";
-import html from "../assests/html.png";
-import react from "../assests/react.png";
+import css from "../assets/css.png";
+import javascript from "../assets/javascript.png";
+import typescript from "../assets/typescript.png";
+import github from "../assets/github.png";
+import html from "../assets/html.png";
+import react from "../assets/react.png";
 import SocialMedia from "../components/SocialMedia";
 
 const Skills = () => {

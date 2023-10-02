@@ -17,9 +17,11 @@ const Portofolio = (): JSX.Element => {
             <img src={Flowers} alt="Flowers" />
           </div>
           <div className="projectName">
-            <button onClick={() => navigate("/ApptechShop")}>
-              Flower Shop
-            </button>
+            <a href="https://cart-app-master.vercel.app/" target="_blank">
+              <button onClick={() => navigate("/ApptechShop")}>
+                Flower Shop
+              </button>
+            </a>
           </div>
         </div>
 

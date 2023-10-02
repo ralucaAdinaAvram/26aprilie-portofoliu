@@ -97,8 +97,8 @@ button {
     width: 200px;
     height: 90px;
     letter-spacing: 2px;
-    font-size: 40px;
-    line-height: 5px;
+    font-size: 30px !important;
+    line-height: 25px;
   }
   .social-media {
     flex: 0;

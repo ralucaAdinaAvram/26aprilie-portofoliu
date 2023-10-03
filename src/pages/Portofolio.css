@@ -57,21 +57,43 @@ button{
 
 
 @media (max-width:952px){
-
-    .portofolioContainer{
-        position:absolute;
-       
-    }
+  .portofolioContainer{
+      display:flex;
+        flex-direction: column;
+       align-items: center;
+       justify-content: center;    
+  }
   
     .project{
-        top:-60px;
-        position: relative;
+        
         display:flex;
         flex-direction: column;
-       left:-120px;
-        align-items: center;
-        z-index:1000;
+       align-items: center;
+       justify-content: center; 
+       margin-left: 0%;
+       
+       
     }
+    .projectCard{
+        display:flex;
+        flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    .projectImg{
+          display:flex;
+        flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    .projectImg img{
+        width:20rem;
+        height: 20rem;
+         padding-left: 0px;
+      border-radius: 5px;
+
+    }
+    
    
   
 }

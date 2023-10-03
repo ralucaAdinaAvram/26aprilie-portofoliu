@@ -1,8 +1,8 @@
 import React from "react";
 import "./Portofolio.css";
 import Flowers from "../assets/flowers.webp";
-import Turbine from "../projects/techShop/src/images/turbine-about.webp"; // Update the import path
-import Dining from "../projects/techShop/src/images/dinning3.jpg"; // Update the import path
+import Turbine from "../assets/turbine-about.webp"; // Update the import path
+import Dining from "../assets/dinning3.jpg"; // Update the import path
 import { useNavigate } from "react-router-dom";
 import SocialMedia from "../components/SocialMedia";
 

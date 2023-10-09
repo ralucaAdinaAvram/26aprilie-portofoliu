@@ -39,9 +39,16 @@ font-family: 'Roboto', sans-serif; */
     background-color: rgb(27, 26, 26);
     position: absolute;
     left: 0;
+    height: 100vh;
     top: 0;
     width: 100vw;
     z-index: 9999;
+  }
+  .mobile-nav-menu {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .header_nav {
     background-color: rgb(27, 26, 26);
@@ -54,8 +61,9 @@ font-family: 'Roboto', sans-serif; */
   }
   .header_nav a {
     list-style: none;
-    font-size: 30px;
-    margin-bottom: 15px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
   }
   .closeButton {
     background-color: rgb(27, 26, 26);

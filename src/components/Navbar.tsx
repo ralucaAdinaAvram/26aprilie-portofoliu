@@ -36,11 +36,13 @@ const Navbar = (): JSX.Element => {
               <p className="closeButton" onClick={toggleMenu}>
                 <AiOutlineClose />
               </p>
+              <div className="mobile-nav-menu">
               <Link to="/">Home</Link>
               <Link to="about">About</Link>
               <Link to="skills">Skills</Link>
               <Link to="portofolio">Portofolio </Link>
               <Link to="contactus">Contact </Link>
+              </div>
             </div>
           </div>
         )}

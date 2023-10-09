@@ -18,7 +18,10 @@ const Portofolio = (): JSX.Element => {
           </div>
           <div className="projectName">
             <a href="https://cart-app-master.vercel.app/" target="_blank">
-              <button onClick={() => navigate("/ApptechShop")}>
+              <button
+                className="portfolio-btn"
+                onClick={() => navigate("/ApptechShop")}
+              >
                 Flower Shop
               </button>
             </a>
@@ -30,7 +33,10 @@ const Portofolio = (): JSX.Element => {
             <img src={Turbine} alt="Turbine" />
           </div>
           <div className="projectName">
-            <button onClick={() => navigate("/ApptechShop")}>
+            <button
+              className="portfolio-btn"
+              onClick={() => navigate("/ApptechShop")}
+            >
               Green Energy
             </button>
           </div>
@@ -41,11 +47,16 @@ const Portofolio = (): JSX.Element => {
             <img src={Dining} alt="Dining" />
           </div>
           <div className="projectName">
-            <button onClick={() => navigate("/ApptechShop")}>Eatery</button>
+            <button
+              className="portfolio-btn"
+              onClick={() => navigate("/ApptechShop")}
+            >
+              Eatery
+            </button>
           </div>
         </div>
       </div>
-      <div className="social-media">
+      <div className="ssocial-media">
         <SocialMedia />
       </div>
     </div>

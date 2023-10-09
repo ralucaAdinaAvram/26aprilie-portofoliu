@@ -11,10 +11,10 @@ const About = (): JSX.Element => {
         </div>
         <div className="about-content">
           <div className="content-l">
-            <p> I am Adina, nice to meet you!</p>
+            <p className="type"> I am Adina, nice to meet you!</p>
           </div>
           <div className="content-r">
-            <p>
+            <p className="type">
               I am passionate about building websites, improving existing
               software, and testing and debugging code . I specialise in
               creating web applications that can be viewed on the computer,

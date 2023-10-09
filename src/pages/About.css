@@ -66,6 +66,14 @@ display:flex;
     letter-spacing: 1px;
   }
   @media (max-width: 952px) {
+    .about-section{
+display: flex;
+flex:2;
+flex-direction: column;
+margin-left:0%;
+padding: 10px;
+
+}
 
     .about-container{
       display: flex;
@@ -86,9 +94,18 @@ display:flex;
     .title h2{
       font-size: 30px;
     }
-    .content-l>p, .content-r>p{
+    .content-l>p{
        font-size: 30px;
     }
+     .content-r>p{
+           font-size: 15px;
+     }
 
 
   }
+
+
+
+
+
+

@@ -42,7 +42,7 @@ const Contact = () => {
           <input type="submit" value="Send" />
         </form>
       </div>
-      <div className="social-media">
+      <div className="social-media-contact">
         <SocialMedia />
       </div>
     </div>

@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fuggles&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;1,300&display=swap");
-
+body {
+  background-color: black;
+}
 .menu {
   display: flex;
   height: 10vh;
@@ -36,7 +38,7 @@ font-family: 'Roboto', sans-serif; */
     display: flex;
   }
   .mobileHamburgerMenu {
-    background-color: rgb(27, 26, 26);
+    background-color: black !important;
     position: absolute;
     left: 0;
     height: 100vh;
@@ -51,7 +53,7 @@ font-family: 'Roboto', sans-serif; */
     justify-content: center;
   }
   .header_nav {
-    background-color: rgb(27, 26, 26);
+    background-color: black !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,7 +68,7 @@ font-family: 'Roboto', sans-serif; */
     margin-bottom: 30px;
   }
   .closeButton {
-    background-color: rgb(27, 26, 26);
+    background-color: black !important;
     width: 100%;
     text-align: end;
   }

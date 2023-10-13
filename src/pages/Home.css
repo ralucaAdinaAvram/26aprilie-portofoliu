@@ -24,20 +24,15 @@
   padding: 20px;
   letter-spacing: 1px;
 } */
-.social-media {
-  flex: 2;
-}
+
 .container-home {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 10%;
+  gap:15rem;
 }
-.landing {
-  flex: 2;
 
-  margin-left: 400px;
-}
 .button {
   padding: 30px;
 }
@@ -50,6 +45,9 @@ button {
 }
 .button > button > a {
   text-decoration: none;
+}
+.sociall-media{
+  margin-top: -50px;
 }
 @media (max-width: 952px) {
   .container-home {
@@ -100,9 +98,7 @@ button {
     font-size: 30px !important;
     line-height: 25px;
   }
-  .social-media {
-    flex: 0;
-  }
+ 
 
   .button a button {
     font-size: 5vw;

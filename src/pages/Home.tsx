@@ -18,7 +18,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <div className="social-media">
+      <div className="sociall-media">
         <SocialMedia />
       </div>
     </div>

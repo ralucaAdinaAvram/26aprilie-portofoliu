@@ -31,6 +31,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 @media (max-width: 540px) {
+ 
   .desktopNav {
     display: none;
   }
@@ -38,7 +39,7 @@ font-family: 'Roboto', sans-serif; */
     display: flex;
   }
   .mobileHamburgerMenu {
-    background-color: black !important;
+    background-color: black ;
     position: absolute;
     left: 0;
     height: 100vh;
@@ -47,6 +48,7 @@ font-family: 'Roboto', sans-serif; */
     z-index: 9999;
   }
   .mobile-nav-menu {
+    background-color: black ;
     height: 80vh;
     display: flex;
     flex-direction: column;

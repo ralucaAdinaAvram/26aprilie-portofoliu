@@ -49,17 +49,18 @@ display:flex;
   }
   .content-r{
     padding: 10px;
+    width:60%;
     
     
   }
   .content-l>p{
     width:100%;
-    font-size: 60px;
+    font-size: 30px;
     letter-spacing: 1px;
   }
   .content-r>p{
     width:100%;
-    font-size: 40px;
+    font-size: 25px;
     letter-spacing: 1px;
   }
   @media (max-width: 952px) {

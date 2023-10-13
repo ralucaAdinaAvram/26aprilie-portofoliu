@@ -33,10 +33,7 @@ const Portofolio = (): JSX.Element => {
             <img src={Turbine} alt="Turbine" />
           </div>
           <div className="projectName">
-            <a
-              href="https://windmill-khe2zbeq6-ralucaadinaavrams-projects.vercel.app/"
-              target="_blank"
-            >
+            <a href="https://windmill-tan.vercel.app/" target="_blank">
               <button
                 className="portfolio-btn"
                 onClick={() => navigate("/ApptechShop")}
